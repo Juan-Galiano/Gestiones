@@ -1,0 +1,7 @@
+bin/
+obj/
+*.user
+.vs/
+
+# Config local con secretos
+.env
