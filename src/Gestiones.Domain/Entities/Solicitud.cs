@@ -28,6 +28,13 @@ namespace Gestiones.Domain.Entities
             Estado = EstadoSolicitud.Creada;
             OperarioAsignado = null;
         }
+        public void AsignarOperario(Empleado empleado)
+        {
+            OperarioAsignado = empleado;
+            Estado = EstadoSolicitud.Asignada;
+
+           
+        }
     }
 
 }
