@@ -6,6 +6,7 @@
         Asignada,
         EnProceso,
         Resuelta,
+        Anulada,
         Cerrada
     }
 }
